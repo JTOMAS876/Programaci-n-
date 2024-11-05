@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta Especial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mensaje Especial</h1>
+        <button onclick="mostrarPregunta()">Ver Mensaje</button>
+    </div>
+
+    <script>
+        function mostrarPregunta() {
+            const mensaje = `Tres años de estudio, esfuerzo y rigor,
+mucho hemos aprendido con respeto y honor.
+Ya no solo son profesores a quienes admiro,
+también se han convertido en amigos.
+
+No hay tareas pesadas, ni clases que aguantar,
+solo risas y momentos que pudimos disfrutar.
+Así que, en este código, les lanzo la función:
+¿Quieren ser los padrinos para esta nueva versión?`;
+
+            alert(mensaje);
+        }
+    </script>
+</body>
+</html>
